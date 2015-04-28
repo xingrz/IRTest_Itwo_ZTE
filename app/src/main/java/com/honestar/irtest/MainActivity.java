@@ -37,6 +37,12 @@ public class MainActivity extends Activity {
         initView();
     }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+        finish();
+    }
+
     private void initView() {
         mBtnFail = (Button) findViewById(R.id.btnFail);
         mBtnSuccess = (Button) findViewById(R.id.btnSuccess);

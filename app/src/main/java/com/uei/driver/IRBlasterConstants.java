@@ -10,9 +10,9 @@ package com.uei.driver;
 public class IRBlasterConstants {
 
 	/** Acer serial port name */
-//	public static final String SERIALPORT = "/dev/ttyHSL1";   //zte
+	public static final String SERIALPORT = "/dev/ttyHSL1";   //zte
 	// public static final String SERIALPORT = "/dev/ttyS1";
-	public static final String SERIALPORT = "/dev/ttyMT2";
+//	public static final String SERIALPORT = "/dev/ttyMT1";
 	// public static final String SERIALPORT = "/dev/ttyHS10";
 
 	/** Blaster serial baud rate */
